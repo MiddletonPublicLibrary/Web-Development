@@ -1,0 +1,69 @@
+.title {
+    text-align: center;
+    line-height: 15px;
+    width: 99%;
+    margin: 20px auto 0 auto;
+    height: 175px;
+    border-radius: 20px;
+    outline: 5px solid rgb(192, 17, 192);
+}
+
+.title h1 {
+    font-size: 72px;
+}
+
+.title h2 {
+    font-size: 32px;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.page {
+    width: 99%;
+    height: 200px;
+    background-color: rgb(192, 17, 192);
+    color: whitesmoke;
+    line-height: 5px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.page h3 {
+    font-size: 48px;
+}
+
+.page h4 {
+    font-size: 18px;
+}
+
+.page button {
+    width: 98%;
+    background-color: rgb(192, 17, 192);
+    outline: 5px solid whitesmoke;
+    border-radius: 20px;
+    font-size: 40px;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border-width: 0px;
+    color: whitesmoke
+}
+
+.page button:hover {
+    background-color: whitesmoke;
+    color: rgb(192, 17, 192);
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
